@@ -6,8 +6,6 @@ services:
     build:
       context: .
       target: development
-    env_file:
-      - compose-dev.env
     ports:
       - 80
     restart: always
